@@ -10,7 +10,7 @@ import javax.swing.JFrame;
 
 /**
  *
- * @author nes
+ * @author omgitsnes
  */
 public class Application extends JFrame {
     
@@ -23,7 +23,7 @@ public class Application extends JFrame {
 
         add(new Board());
 
-        setSize(250, 200);
+        setSize(500, 500);
 
         setTitle("Connect 4");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
